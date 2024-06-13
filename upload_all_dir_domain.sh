@@ -39,7 +39,7 @@ done
 
 
 # Define the output file for saving paths
-output_file="/tmp/t/dd.txt"
+output_file="/tmp/dd.txt"
 
 # List all directories under /home
 home_dirs=$(find /home -mindepth 1 -maxdepth 1 -type d)
